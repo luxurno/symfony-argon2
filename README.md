@@ -4,6 +4,9 @@ docker-compose up -d
 ### Exec bash in container
 docker-compose exec app bash
 
+### Install dependencies
+composer install
+
 ### Generate JWT keys pair
 php bin/console lexik:jwt:generate-keypair
 
